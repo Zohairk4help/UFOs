@@ -84,4 +84,4 @@ function updateFilters() {
   // reference: https://stackoverflow.com/questions/24869222/select-divs-by-id-prefix-in-d3
   // reference: https://sebhastian.com/javascript-filter-array-multiple-values/
   // reference: https://coderedirect.com/questions/538104/filtering-multiple-value-with-multiple-key-in-json-array-using-lodash
-  
+  // reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries#examples

@@ -61,12 +61,12 @@ function updateFilters() {
     let filteredData = tableData;
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    Object.entries(filteredData).filter(([key, value]) => {
-      console.log(`${key} ${value}`); 
+    filteredData = Object.entries(filteredData).filter(([filters]) => {
+      console.log(`${JSON.stringify(key)} ${JSON.stringify(value)}`); 
     });
   
     // 10. Finally, rebuild the table using the filtered data
-    buildTable(filteredData)
+    buildTable(filteredTable)
   }
   
   // 2. Attach an event to listen for changes to each filter
@@ -82,3 +82,6 @@ function updateFilters() {
 
 
   // reference: https://stackoverflow.com/questions/24869222/select-divs-by-id-prefix-in-d3
+  // reference: https://sebhastian.com/javascript-filter-array-multiple-values/
+  // reference: https://coderedirect.com/questions/538104/filtering-multiple-value-with-multiple-key-in-json-array-using-lodash
+  
